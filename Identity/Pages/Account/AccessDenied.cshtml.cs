@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Identity.Pages.HumanResources
+namespace Identity.Pages.Account
 {
-    public class HumanResourcesModel : PageModel
+    public class AccessDeniedModel : PageModel
     {
         public void OnGet()
         {
