@@ -36,7 +36,7 @@ namespace Identity.Pages.Account
                     new Claim("Department", "HR"),
                     new Claim("Admin", "true"),
                     new Claim("Manager", "true"),
-                    new Claim("EmploymentDate", "2021-11-01")
+                    new Claim("EmploymentDate", "2021-05-01")
 
                 };
 
