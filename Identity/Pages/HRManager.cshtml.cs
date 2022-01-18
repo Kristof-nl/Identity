@@ -48,7 +48,7 @@ namespace Identity.Pages
 
             if (token == null ||
                 string.IsNullOrWhiteSpace(token.AccessToken) ||
-                token.ExpiredAt <= DateTime.UtcNow)
+                token.ExpiredAt <= DateTime.UtcNow ) 
                 token = await Authenticate();
 
 
